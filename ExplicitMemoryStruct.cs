@@ -11,9 +11,12 @@ namespace ExplicitStruct
 	public struct ExplicitMemoryStruct
 	{
 		[FieldOffset(0)]
-		public int x;
+		public byte x;
 
 		[FieldOffset(0)] 
-		public int y;
+		public double y;
+
+		[FieldOffset(0)]
+		public short z;
 	}
 }
